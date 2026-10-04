@@ -1,0 +1,33 @@
+# Task 5 —Ethiopian Shopping Receipt
+# first Product
+Customer_name1=input("Customer name:")
+Product_name1=input("Product name:")
+Price1=float(input("Price:"))
+Quantity1=int(input("Quantity:"))
+Total_Price1=Price1*Quantity1
+print("\n================================")
+print("           RECEIPT            ")
+print("===================================")
+print("Customer:",Customer_name1)
+print("Product","  ","Price","   ","Qty")
+print("------------------------------------")
+print(Product_name1,"  ",Price1,"ETB","  ",Quantity1)
+print(Total_Price1,"ETB")
+print("Thank you for shopping!")
+print("===================================")
+# second prodact
+customer_name2=input("Customer Name:")
+Product_name2=input("product name:")
+Price2=float(input("price:"))
+Quantity2=int(input("Quantity:"))
+Total_Price2=Price2*Quantity2
+print("\n================================")
+print("           RECEIPT            ")
+print("===================================")
+print("Customer:",customer_name2)
+print("Product","  ","Price","   ","Qty")
+print("------------------------------------")
+print(Product_name2,"  ",Price2,"ETB","  ",Quantity2)
+print(Quantity2,"ETB")
+print("Thank you for shopping!")
+print("===================================")
