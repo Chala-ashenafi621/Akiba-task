@@ -1,0 +1,13 @@
+# TASK 10 — BMI Health Information
+name = input("Enter your name: ")
+weight = float(input("Enter your weight in kilograms: "))
+height = float(input("Enter your height in meters: "))
+bmi = weight / (height * height)
+print("\n================================")
+print("          BMI REPORT")
+print("================================")
+print("Name:", name)
+print("Weight:", weight, "kg")
+print("Height:", height, "m")
+print("BMI:", f"{bmi:.2f}")
+print("================================")
