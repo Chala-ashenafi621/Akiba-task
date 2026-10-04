@@ -1,0 +1,17 @@
+#TASK 8 — Exam Result Report
+student_name = input("Student name: ")
+python_score = float(input("Python score: "))
+English_score = float(input("English score: "))
+mathematics_score = float(input("Mathematics score: "))
+average = (python_score + English_score + mathematics_score) / 3
+print("\n========================================")
+print("          STUDENT RESULT")
+print("========================================")
+print("Student:", student_name)
+print()
+print("Python:       ", python_score)
+print("English:      ", English_score)
+print("Mathematics:  ", mathematics_score)
+print("----------------------------------------")
+print("Average:      ",average)
+print("========================================")
